@@ -1,5 +1,7 @@
 // power.cpp
 //
+// Version 0.1.3 - 2004-06-01
+// - Changed GetValue() so it can compile under VC++ 5.0 - using math.h
 // Version 0.1.2 - 2004-05-11
 //
 // Copyright (C) 2004 Owen Jacobson
@@ -21,8 +23,6 @@
 // The developer's email is angstrom@lionsanctuary.net
 //
 
-#include <cmath>
-
 #include "power.h"
 
 using namespace noise::module;
@@ -37,6 +37,6 @@ double Power::GetValue (double x, double y, double z) const
   assert (m_pSourceModule[0] != NULL);
   assert (m_pSourceModule[1] != NULL);
 
-  return std::pow (m_pSourceModule[0]->GetValue (x, y, z),
-		   m_pSourceModule[1]->GetValue (x, y, z));
+  return pow (m_pSourceModule[0]->GetValue (x, y, z),
+    m_pSourceModule[1]->GetValue (x, y, z));
 }

@@ -1,5 +1,7 @@
 // terrace.cpp
 //
+// Version 0.1.3 - 2004-06-01
+// - Uses noise::int8 instead of int8 so it will compile on VC++ 5.0
 // Version 0.1.1 - 2004-03-04
 // - Changed GetNumSourceModules() to GetSourceModuleCount() for consistency.
 // - Changed m_numTerracePoints to m_terracePointCount for consistency.
@@ -30,6 +32,8 @@
 #include "terrace.h"
 
 using namespace noise::module;
+
+using namespace noise;
 
 Terrace::Terrace ():
   Module (GetSourceModuleCount ()),
@@ -146,7 +150,7 @@ void Terrace::InsertAtPos (int insertionPos, double value)
   m_pTerracePoints[insertionPos] = value;
 }
 
-void Terrace::MakeTerracePoints (int8 terracePointCount)
+void Terrace::MakeTerracePoints (noise::int8 terracePointCount)
 {
   if (terracePointCount < 2) {
     throw EX_INVALID_PARAM;
