@@ -1,11 +1,6 @@
 // terrace.cpp
 //
-// Version 0.1.3 - 2004-06-01
-// - Uses noise::int8 instead of int8 so it will compile on VC++ 5.0
-// Version 0.1.1 - 2004-03-04
-// - Changed GetNumSourceModules() to GetSourceModuleCount() for consistency.
-// - Changed m_numTerracePoints to m_terracePointCount for consistency.
-// - Changed numTerracePoints to terracePointCount for consistency.
+// Version 0.1.3 - 2004-06-03
 //
 // Copyright (C) 2003, 2004 by Jason Bevins    
 //

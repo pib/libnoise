@@ -1,10 +1,8 @@
 // power.cpp
 //
-// Version 0.1.3 - 2004-06-01
-// - Changed GetValue() so it can compile under VC++ 5.0 - using math.h
-// Version 0.1.2 - 2004-05-11
+// Version 0.1.3 - 2004-06-03
 //
-// Copyright (C) 2004 Owen Jacobson
+// Copyright (C) 2004 by Owen Jacobson
 //
 // This library is free software; you can redistribute it and/or modify it
 // under the terms of the GNU Lesser General Public License as published by
