@@ -1,7 +1,7 @@
 // curve.h
 //
 // Version 0.1.2 - 2004-05-28
-// - Trying out my CVS check-in privileges.
+// - Trying out my CVS check-in privileges. (spelling mistake)
 // Version 0.1.1 - 2004-03-04
 // - Changed GetNumControlPoints() to GetControlPointCount() for consistency.
 // - Changed GetNumSourceModules() to GetSourceModuleCount() for consistency.
