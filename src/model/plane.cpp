@@ -28,6 +28,7 @@ Plane::Plane ():
 {
 }
 
+// Told you this was trivial.
 double Plane::GetValue (double x, double z) const {
   assert (m_pModule != NULL);
   
