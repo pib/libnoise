@@ -28,6 +28,7 @@ AC_INIT(libnoise, 0.9.0)
 AC_CANONICAL_TARGET
 AM_INIT_AUTOMAKE([dist-bzip2 dist-zip])
 AM_CONFIG_HEADER([config.h])
+AC_CONFIG_MACRO_DIR([m4])
 
 # Checks for programs.
 AC_PROG_MAKE_SET

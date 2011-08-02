@@ -46,3 +46,5 @@ DISTCLEANFILES = \
 	config.log \
 	config.status
 
+ACLOCAL_AMFLAGS=-I m4
+
