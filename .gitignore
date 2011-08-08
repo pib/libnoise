@@ -1,6 +1,9 @@
 *.o
 *.lo
+*.so
+*.dylib
 Makefile
 Makefile.in
 *.in
 *.la
+*.pyc
